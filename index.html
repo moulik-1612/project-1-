@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    
+    <div class="add-product">
+
+        <h3>Add Product</h3>
+        <p >Product :</p>
+        <select name="product" id="" title="items" class="input">
+            <option value="" selected>choose your product</option>
+            <option value="200">mouse (RS. 200)</option>
+            <option value="1000">key-board(RS. 1000)</option>
+            <option value="500">USB cabel (RS. 500)</option>
+        </select>
+        <br>
+
+        <p >Quantity :</p>
+        <input type="number" min="1" id="quantity" class="input">
+        <br>
+
+        <p >Total price :</p>
+        <input type="text" id="display-price" class="input">
+        <br>
+
+        <button>Add To Cart</button>
+        <br>
+
+        <textarea name="bill" id="textarea" cols="50" rows="7">
+            
+        </textarea>
+    </div>
+
+
+
+
+    <div class="customer-info">
+        <form action="">
+    <h3>Customer Info</h3>
+
+    <p >Name :</p>
+    <input type="text" id="name" class="input">
+    <br>
+
+
+    <p >Email :</p>
+    <input type="email" id="email" class="input">
+    <br>
+
+    <p >Phone no :</p>
+
+    <input id="number" class="input" maxlength="10"> 
+
+    <br>
+
+    <button id="info" type="button">Order Submit</button><br>
+    </form>
+
+    <textarea name="order" id="order-textarea" cols="50" rows="7"></textarea>
+
+    </div>
+
+
+    <div class="order-list">
+        <h3>Your Orders</h3>
+        <textarea name="order-history" id="order-history" cols="50" rows="7">
+            Check your all orders here
+        </textarea>
+        <br>
+        <button id="First">First</button> <button id="Next">Next</button> <button id="Previous">Previous</button> <button id="Last">Last</button>
+
+    </div>
+    
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

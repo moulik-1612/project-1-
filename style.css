@@ -1,0 +1,62 @@
+*{
+    margin:0.75rem;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.add-product{
+    margin-top: 2rem;
+
+}
+
+.customer-info{
+    margin-top: 2rem;
+}
+
+.container{
+    height: 145vmin;
+    width: 65vmin;
+    border: 2px solid black;
+    margin-top: 3rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.order-list{
+    margin-top: 2rem;
+}
+
+p{
+    display: inline;
+}
+
+.input{
+    width: 80%;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+}
+
+h3{
+    text-transform:uppercase;
+}
+
+button{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+#textarea{
+    text-align:right;
+}
+
+#order-history{
+    text-align: left;
+}
